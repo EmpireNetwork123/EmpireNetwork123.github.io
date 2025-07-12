@@ -11,8 +11,8 @@ I am postgraduate researcher at Huazhong University of Science and Technology, w
 ### Expertise
 - Malware traffic analysis
 - Threat Extraction
-- Programming(Python, C#, PHP) 
+- Programming (Python, C#, PHP) 
 - Deep learning (PyTorch, Keras)  
 - Federated learning (Flower)
-- Tools:Heatmapping, Remote Support, Packet Analysis
+- Tools (Heatmapping, Remote Support, Packet Analysis)
 - Network security (RSA,ECDSA,VoIP, SIP, Wi‑Fi)
