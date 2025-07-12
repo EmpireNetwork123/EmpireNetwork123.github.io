@@ -1,4 +1,4 @@
-title: "Eric Chinonso"
+title: "Ali Eric Chinonso"
 description: "Cybersecurity Researcher"
 position: "Master Researcher\nHuazhong University of Science and Technology"
 baseurl: ""
@@ -7,6 +7,6 @@ email: "Ericchinonso1@outlook.com"
 linkedin_username: "ericchinonso"
 github_username: "EmpireNetwork123"
 scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
-about_me: "I'm Eric Chinonso, a postgraduate researcher at **Huazhong University of Science and Technology**, working on deep learning‑based ransomware detection using CNN‑BiLSTM models."
+about_me: "I a postgraduate researcher at Huazhong University of Science and Technology, working on wide range of cybersecurity research including Information Security, AI/ML applications, Deep Federated Learning, and Privacy and Security. Adept at communicating technical solutions to scientists, analysts, and business stakeholders. Committed to delivering innovative, efficient, and secure solutions that enhance system performance and regulation compliance."
 markdown: kramdown
 theme: null
