@@ -1,12 +1,38 @@
+# ------------------------------------------
+# PERSONAL INFO
+# ------------------------------------------
 title: "Ali Eric Chinonso"
 description: "Cybersecurity Researcher"
-position: "Master Researcher\nHuazhong University of Science and Technology"
-baseurl: ""
+
+# Two‑line subtitle for hero section
+role: "Master Researcher"
+affiliation: "Huazhong University of Science and Technology"
+
+# ------------------------------------------
+# SITE & REPO SETTINGS
+# ------------------------------------------
+baseurl: ""   # keep empty for https://empirenetwork123.github.io
 url: "https://empirenetwork123.github.io"
+
+# ------------------------------------------
+# CONTACT / SOCIAL LINKS
+# ------------------------------------------
 email: "Ericchinonso1@outlook.com"
-linkedin_username: "ericchinonso"
 github_username: "EmpireNetwork123"
+linkedin_username: "ericchinonso"
 scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
-about_me: "I am postgraduate researcher at Huazhong University of Science and Technology, working on wide range of cybersecurity research including Information Security, AI/ML applications, Deep Federated Learning, and Privacy and Security. Adept at communicating technical solutions to scientists, analysts, and business stakeholders. Committed to delivering innovative, efficient, and secure solutions that enhance system performance and regulation compliance."
+
+# ------------------------------------------
+# ABOUT‑ME PARAGRAPH (Markdown accepted)
+# ------------------------------------------
+about_me: |
+  I am a postgraduate researcher at Huazhong University of Science and Technology,
+  working on a wide range of cybersecurity topics including Information Security,
+  AI/ML applications, Deep Federated Learning, and Privacy & Security.  
+  Adept at communicating technical solutions to scientists, analysts, and business
+  stakeholders. Committed to delivering innovative, efficient, and secure solutions
+  that enhance system performance and ensure regulatory compliance.
+
+# ------------------------------------------
 markdown: kramdown
 theme: null
