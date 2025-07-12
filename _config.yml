@@ -4,35 +4,48 @@
 title: "Ali Eric Chinonso"
 description: "Cybersecurity Researcher"
 
-# Two‑line subtitle for hero section
+# Hero section subtitle
 role: "Master Researcher"
 affiliation: "Huazhong University of Science and Technology"
 
 # ------------------------------------------
-# SITE & REPO SETTINGS
+# SITE SETTINGS
 # ------------------------------------------
-baseurl: ""   # keep empty for https://empirenetwork123.github.io
+baseurl: ""  # Keep empty for https://empirenetwork123.github.io
 url: "https://empirenetwork123.github.io"
 
 # ------------------------------------------
 # CONTACT / SOCIAL LINKS
 # ------------------------------------------
 email: "Ericchinonso1@outlook.com"
-github_username: "EmpireNetwork123"
-linkedin_username: "ericchinonso"
-scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
+
+social_links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/EmpireNetwork123"
+  - name: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/ericchinonso"
+  - name: "Google Scholar"
+    icon: "ai ai-google-scholar"
+    url: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
+  - name: "Email"
+    icon: "fas fa-envelope"
+    url: "mailto:Ericchinonso1@outlook.com"
 
 # ------------------------------------------
-# ABOUT‑ME PARAGRAPH (Markdown accepted)
+# ABOUT ME (Markdown accepted)
 # ------------------------------------------
 about_me: |
   I am a postgraduate researcher at Huazhong University of Science and Technology,
-  working on a wide range of cybersecurity topics including Information Security,
+  focused on a broad range of cybersecurity topics, including Information Security,
   AI/ML applications, Deep Federated Learning, and Privacy & Security.  
-  Adept at communicating technical solutions to scientists, analysts, and business
-  stakeholders. Committed to delivering innovative, efficient, and secure solutions
-  that enhance system performance and ensure regulatory compliance.
+  I excel at translating technical solutions for scientists, analysts, and business stakeholders.
+  Passionate about delivering innovative, efficient, and secure systems that enhance performance
+  and ensure compliance with global standards.
 
+# ------------------------------------------
+# MARKDOWN AND THEME SETTINGS
 # ------------------------------------------
 markdown: kramdown
 theme: null
