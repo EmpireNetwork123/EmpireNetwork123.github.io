@@ -10,19 +10,13 @@
 
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <!-- Font Awesome icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    integrity="sha512-2oA4qwYq0S4FXX5CiSoD06bLrQ6PksaXXnMzxAWtOFscQY/egkMJ0PZa8eHu33tYfTY1ZbLCHkB4rBfNE/cZ4w=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-2oA4qwYq0S4FXX5CiSoD06bLrQ6PksaXXnMzxAWtOFscQY/egkMJ0PZa8eHu33tYfTY1ZbLCHkB4rBfNE/cZ4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Academicons (for Google Scholar icon) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" />
 </head>
 
 <body>
@@ -30,7 +24,6 @@
   <header class="site-header">
     <div class="container nav-wrapper">
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
       <nav class="site-nav">
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/bio/">Bio</a>
@@ -40,64 +33,37 @@
     </div>
   </header>
 
-  <!-- ====================  HERO (HOME PAGE ONLY)  ==================== -->
+  <!-- ====================  HERO (HOME PAGE ONLY)  ==================== -->
   {% if page.url == "/" or page.permalink == "/" %}
   <section class="hero">
     <div class="container hero-wrapper">
-      <!-- --------  LEFT COLUMN: Photo, Name, Subtitle, Icons  -------- -->
+      <!-- LEFT COLUMN: Photo, Name, Subtitle, Icons -->
       <div class="hero-left">
-        <img
-          src="{{ '/assets/images/profile.jpg' | relative_url }}"
-          alt="{{ site.title }} headshot"
-          class="avatar"
-        />
-
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.title }} headshot" class="avatar" />
         <h1 class="name">{{ site.title }}</h1>
-
-        <!-- Two subtitle lines, tight together -->
         <p class="position">
           {{ site.role }}<br />
           {{ site.affiliation }}
         </p>
-
-        <!-- Icon‑only links -->
         <div class="social-icons">
-          <a href="mailto:{{ site.email }}" aria-label="Email">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          <a href="{{ site.scholar_link }}" aria-label="Google Scholar">
-            <i class="fa-solid fa-graduation-cap"></i>
-          </a>
-          <a
-            href="https://github.com/{{ site.github_username }}"
-            aria-label="GitHub"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a
-            href="https://linkedin.com/in/{{ site.linkedin_username }}"
-            aria-label="LinkedIn"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+          <a href="mailto:{{ site.email }}" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="{{ site.scholar_link }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
 
-      <!-- --------  RIGHT COLUMN: About‑Me Paragraph  -------- -->
+      <!-- RIGHT COLUMN: About Me -->
       <div class="hero-right">
-        <h2>About Me</h2>
+        <h2>About Me</h2>
         <p>{{ site.about_me | markdownify }}</p>
       </div>
     </div>
   </section>
   {% endif %}
 
-  <!-- ====================  MAIN CONTENT  ==================== -->
-  <main class="container content">
-    {{ content }}
-  </main>
+  <main class="container content">{{ content }}</main>
 
-  <!-- ====================  FOOTER  ==================== -->
   <footer class="site-footer">
     <div class="container">
       <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
