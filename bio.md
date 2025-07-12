@@ -6,10 +6,13 @@ permalink: /bio/
 
 ## About Me
 
-I'm Eric Chinonso, a postgraduate researcher at **Huazhong University of Science and Technology**, working on deep learning‑based ransomware detection using CNN‑BiLSTM models.
+I am postgraduate researcher at Huazhong University of Science and Technology, working on wide range of cybersecurity research including Information Security, AI/ML applications, Deep Federated Learning, and Privacy and Security. Adept at communicating technical solutions to scientists, analysts, and business stakeholders. Committed to delivering innovative, efficient, and secure solutions that enhance system performance and regulation compliance..
 
 ### Expertise
-- Malware traffic analysis  
+- Malware traffic analysis
+- Threat Extraction
+- Programming(Python, C#, PHP) 
 - Deep learning (PyTorch, Keras)  
-- Federated learning (Flower)  
-- Network security (VoIP, SIP, Wi‑Fi)
+- Federated learning (Flower)
+- Tools:Heatmapping, Remote Support, Packet Analysis
+- Network security (RSA,ECDSA,VoIP, SIP, Wi‑Fi)
