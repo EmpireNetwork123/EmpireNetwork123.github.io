@@ -26,12 +26,10 @@ scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
 # ABOUT‑ME PARAGRAPH (Markdown accepted)
 # ------------------------------------------
 about_me: |
-  I am a postgraduate researcher at Huazhong University of Science and Technology,
-  working on a wide range of cybersecurity topics including Information Security,
-  AI/ML applications, Deep Federated Learning, and Privacy & Security.  
-  Adept at communicating technical solutions to scientists, analysts, and business
-  stakeholders. Committed to delivering innovative, efficient, and secure solutions
-  that enhance system performance and ensure regulatory compliance.
+ I am postgraduate researcher at Huazhong University of Science and Technology, working on wide range research including Information Security,
+ AI/ML applications, Natural language Processing, Data Mining, Deep Federated Learning, and Privacy and Security. 
+ Adept at communicating technical solutions to scientists, analysts, and business stakeholders. 
+ Committed to delivering innovative, efficient, and secure solutions that enhance system performance and regulation compliance.
 
 # ------------------------------------------
 markdown: kramdown
