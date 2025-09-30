@@ -26,11 +26,9 @@ scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
 # ABOUT‑ME PARAGRAPH (Markdown accepted)
 # ------------------------------------------
 about_me: |
- I am postgraduate researcher at Huazhong University of Science and Technology, working on wide range research including Information Security,
- AI/ML applications, Natural language Processing, Data Mining, Deep Federated Learning, and Privacy and Security. 
- Adept at communicating technical solutions to scientists, analysts, and business stakeholders. 
- Committed to delivering innovative, efficient, and secure solutions that enhance system performance and regulation compliance.
-
+ My research mainly focus on information and digital forensics, am  experienced in adversarial modeling, privacy-preserving malware detection, and provenance analysis.
+ My recent work applies artificial intelligence to uncover and explain malicious behaviors especially those that apply polymophic attributes.
+ I aim to extend these methods to AI-driven and IoT forensic investigations, building reliable tools for evidence attribution and secure networked systems.
 # ------------------------------------------
 markdown: kramdown
 theme: null
