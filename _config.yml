@@ -26,9 +26,9 @@ scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
 # ABOUT‑ME PARAGRAPH (Markdown accepted)
 # ------------------------------------------
 about_me: |
- My research mainly focus on information and digital forensics, am  experienced in adversarial modeling, privacy-preserving malware detection, and provenance analysis.
- My recent work applies artificial intelligence to detect and explain malicious behaviors especially those that apply polymophic attributes.
- I aim to extend these methods to AI-driven and IoT forensic investigations, building reliable tools for evidence attribution and secure networked systems.
+ My research mainly focuses on information security and digital forensics. I am experienced in adversarial modeling, privacy-preserving malware detection,and provenance analysis. 
+ Recently, I have applied artificial intelligence to detect and explain malicious behaviors, particularly those exhibiting polymorphic attributes. 
+ I aim to extend these methods to AI-driven and IoT forensic investigations, with the goal of building reliable tools for evidence attribution and secure networked systems.
 # ------------------------------------------
 markdown: kramdown
 theme: null
