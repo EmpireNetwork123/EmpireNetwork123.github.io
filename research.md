@@ -7,7 +7,7 @@ permalink: /research/
 ## 🔬 Research Focus
 
 - 🔐 **Information Security**  
-- 🤖 **Artificial Intelligence**  
-- 🌐 **Deep Federated Learning**  
-- 🔒 **Computer Security**  
-- 📊 **Data Analysis**
+- 🤖 **Digital Forensics**  
+- 🌐 **Artificial Intelligence**  
+- 🔒 **Distributed Systems**  
+- 📊 **Human-Centered Cybersecuirty**
