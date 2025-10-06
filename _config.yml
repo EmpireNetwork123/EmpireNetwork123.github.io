@@ -26,7 +26,7 @@ scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
 # ABOUT‑ME PARAGRAPH (Markdown accepted)
 # ------------------------------------------
 about_me: |
- I am a cybersecurity researcher and PhD applicant focused on building practical systems to dissect and mitigate complex software threats. My work spans **Computer & Network Security**,**Malware Analysis**,**Digital Forensics** , and **ML Applications**. My master's thesis pioneered a decentralized framework for ransomware detection, achieving 99.9% accuracy by analyzing low-level system call behavior. I am now delving deeper into the foundational layers of software exploitation, with a growing interest in **binary analysis**, **automated vulnerability discovery**, and **kernel security**. My goal is to contribute to the next generation of robust, explainable security primitives for critical systems.
+ I am a cybersecurity researcher and PhD applicant focused on building practical systems to dissect and mitigate complex software threats. My work spans **Computer & Network Security**,**Malware Analysis**,**Digital Forensics** , and **AI/ML Applications**. My master's thesis pioneered a decentralized framework for ransomware detection, achieving 99.9% accuracy by analyzing low-level system call behavior. I am now delving deeper into the foundational layers of software exploitation, with a growing interest in **binary analysis**, **automated vulnerability discovery**, and **kernel security**. My goal is to contribute to the next generation of robust, explainable security primitives for critical systems.
 
 # ------------------------------------------
 markdown: kramdown
