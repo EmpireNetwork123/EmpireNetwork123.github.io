@@ -14,7 +14,7 @@ I am now seeking to deepen my work by moving from behavioral *detection* to a mo
 
 ### Technical Proficiencies
 
-**computer & Network Security Research**
+**Computer & Network Security Research**
 - **Malware Analysis:** Dynamic Analysis (Cuckoo Sandbox), Behavioral Feature Extraction, MITRE ATT&CK Mapping
 - **Reverse Engineering:** Binary Analysis, Ghidra, Wireshark, Snort/Suricata
 - **Systems Programming:** C, C++, Python, x86 Assembly (Familiar)
