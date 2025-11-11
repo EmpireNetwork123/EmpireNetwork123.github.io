@@ -26,8 +26,5 @@ scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
 # ABOUT‑ME PARAGRAPH (Markdown accepted)
 # ------------------------------------------
 about_me: |
- I am a cybersecurity researcher and PhD applicant focused on building practical systems to dissect and mitigate complex software threats. My work spans **Computer & Network Security**,**Malware Analysis**,**Digital Forensics** , and **AI/ML Applications**. My master's thesis pioneered a decentralized framework for ransomware detection, achieving 99.9% accuracy by analyzing low-level system call behavior. I am now delving deeper into the foundational layers of software exploitation, with a growing interest in **binary analysis**, **automated vulnerability discovery**, and **kernel security**. My goal is to contribute to the next generation of robust, explainable security primitives for critical systems.
-
-# ------------------------------------------
-markdown: kramdown
+I am a cybersecurity researcher and PhD applicant passionate about building intelligent systems that bridge security with human-centered design. My work spans **AI/ML Applications**, **Human-Computer Interaction**, **Data Mining**, and **Cybersecurity**, exploring how these domains intersect to create adaptive solutions. My master's thesis pioneered a **decentralized, data-driven framework** for ransomware detection, achieving 99.9% accuracy through **behavioral analysis** and **adaptive learning**. I'm now expanding my focus to **explainable AI** in security systems, **interactive data visualization** for threat intelligence, and **human-centered approaches** to vulnerability discovery. My goal is to develop **robust, interpretable systems** that protect critical infrastructure while empowering users through **intuitive interfaces** and **accessible security tools**.
 theme: null
