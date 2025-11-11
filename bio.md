@@ -10,7 +10,7 @@ I am a Master's researcher in Cybersecurity at Huazhong University of Science an
 
 My master's thesis, "Research on Ransomware Detection Technology Based on CNN-BiLSTM Hybrid Model," involved building an end-to-end system for behavioral malware analysis. I led the creation of a novel dataset of 30,173 ransomware samples by instrumenting and tracing low-level system behaviors (APIs, DLLs, mutexes) and mapping them to the MITRE ATT&CK framework. I then designed and implemented a federated learning framework that achieved 99.9% detection accuracy while preserving data privacy, resulting in a first-author publication.
 
-I am now seeking to deepen my work by moving from behavioral *detection* to a more foundational understanding of software *exploitation*. I am particularly interested in computer and network security, binary reverse engineering, and automated techniques for vulnerability discovery and hardening.
+I'm now expanding my focus to **explainable AI** in security systems, **interactive data visualization** for threat intelligence, and **human-centered approaches** to vulnerability discovery. My goal is to develop **robust, interpretable systems** that protect critical infrastructure while empowering users through **intuitive interfaces** and **accessible security tools**.
 
 **[📄 View my Resume here: (PDF)](/assets/Ali_Eric_Chinonso_CV.pdf)**
 
