@@ -163,7 +163,6 @@ body {
 
 }
 
-
 /* ===== ENHANCED RESEARCH STYLES ===== */
 .research-grid {
   display: grid;
@@ -187,6 +186,20 @@ body {
   box-shadow: 0 4px 20px rgba(100, 255, 218, 0.1);
 }
 
+/* Research header styling */
+.research-header h2 {
+  color: #64ffda; /* Same as research-card h3 */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.research-header p {
+  color: #e6f1ff; /* Same as research-card li */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
 .research-card h3 {
   color: #64ffda;
   font-size: 1.2rem;
@@ -201,7 +214,7 @@ body {
 }
 
 .research-card li {
-  color: #e6f1ff;  /* Changed to white for better readability */
+  color: #e6f1ff;
   line-height: 1.6;
   margin-bottom: 0.8rem;
   padding-left: 1.2rem;
@@ -226,6 +239,5 @@ body {
   border-radius: 8px;
   margin-top: 2rem;
 }
-
 
 
