@@ -4,9 +4,10 @@ title: "Research"
 permalink: /research/
 ---
 
-## Research Focus
-
-Developing intelligent systems that bridge security with human-centered design and data-driven methods.
+<div class="research-header">
+  <h2>Research Focus</h2>
+  <p>Developing intelligent systems that bridge security with human-centered design and data-driven methods.</p>
+</div>
 
 <div class="research-grid">
   <div class="research-card">
