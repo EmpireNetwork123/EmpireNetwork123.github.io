@@ -12,7 +12,7 @@ My master's thesis, "Research on Ransomware Detection Technology Based on CNN-Bi
 At the moment, I am expanding my interests along **explainable AI** in security systems, **interactive data visualization** for threat intelligence, and **human-centered approaches** to vulnerability discovery. My goal is to develop **robust, interpretable systems** that protect critical infrastructure while empowering users through **intuitive interfaces** and **accessible security tools**.
 
 **[📄More details on my CV: (PDF)](/assets/Ali_Eric_Chinonso_CV.pdf)**  
-**[📚B.Eng & M.Sc Official Transcripts (PDF)](/assets/B.ENG_and_MSC_Official_Transcripts.pdf)**
+**[📚B.Eng & M.Sc Official Transcripts (PDF)](/assets/B.ENG and MSC Official Trancripts.pdf)**
 
 ### Technical Proficiencies
 
