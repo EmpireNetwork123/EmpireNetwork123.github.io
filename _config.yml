@@ -1,5 +1,5 @@
-title: "Ali Eric Chinonso "
-description: "PhD Applicant | Systems Security | Malware Analysis | Software Forensics"
+title: "Ali Eric Chinonso"
+description: "PhD Applicant | Cybersecurity Research | Human-Centered Security"
 
 role: "Master of Cybersecurity"
 affiliation: "Huazhong University of Science and Technology"
@@ -12,7 +12,6 @@ github_username: "EmpireNetwork123"
 linkedin_username: "ericchinonso"
 scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
 
-about_me: |
-  I am a cybersecurity researcher and PhD applicant passionate about building intelligent systems that bridge security with human-centered design. My work spans **Network Security**,**AI/ML Applications**, **Data Mining**, and **Cybersecurity**, exploring how these domains intersect to create adaptive solutions. My master's thesis pioneered a **decentralized, data-driven framework** for ransomware detection, achieving 99.9% accuracy through **behavioral analysis** and **adaptive learning**. I'm now expanding my focus to **Human-Computer Interaction**, **explainable AI** in security systems, **interactive data visualization** for threat intelligence, and **human-centered approaches** to vulnerability discovery. My goal is to develop **robust, interpretable systems** that protect critical infrastructure while empowering users through **intuitive interfaces** and **accessible security tools**.
+about_me: "I am a cybersecurity researcher and PhD applicant passionate about building intelligent systems that bridge security with human-centered design. My work spans **Network Security**, **AI/ML Applications**, **Data Mining**, and **Cybersecurity**, exploring how these domains intersect to create adaptive solutions. My master's thesis pioneered a **decentralized, data-driven framework** for ransomware detection, achieving 99.9% accuracy through **behavioral analysis** and **adaptive learning**. I'm now expanding my focus to **Human-Computer Interaction**, **explainable AI** in security systems, **interactive data visualization** for threat intelligence, and **human-centered approaches** to vulnerability discovery. My goal is to develop **robust, interpretable systems** that protect critical infrastructure while empowering users through **intuitive interfaces** and **accessible security tools**."
 
 theme: null
