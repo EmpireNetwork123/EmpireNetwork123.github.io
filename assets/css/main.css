@@ -163,6 +163,7 @@ body {
 
 }
 
+
 /* ===== ENHANCED RESEARCH STYLES ===== */
 .research-grid {
   display: grid;
@@ -200,7 +201,7 @@ body {
 }
 
 .research-card li {
-  color: #8892b0;
+  color: #e6f1ff;  /* Changed to white for better readability */
   line-height: 1.6;
   margin-bottom: 0.8rem;
   padding-left: 1.2rem;
@@ -225,11 +226,6 @@ body {
   border-radius: 8px;
   margin-top: 2rem;
 }
-
-
-
-
-
 
 
 
