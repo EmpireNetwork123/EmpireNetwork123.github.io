@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/bio/">Bio</a>
+        <a href="{{ site.baseurl }}/research/">Research</a>
+        <a href="{{ site.baseurl }}/publications/">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  {% if page.url == "/" %}
+  <section class="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-left">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.title }} headshot" class="avatar"/>
+        <h1 class="name">{{ site.title }}</h1>
+        <p class="position">{{ site.role }}<br/>{{ site.affiliation }}</p>
+        <div class="social-icons">
+          <a href="mailto:{{ site.email }}" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="{{ site.scholar_link }}" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+          <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <h2>About Me</h2>
+        <p>{{ site.about_me | markdownify }}</p>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <main class="container content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
+    </div>
+  </footer>
+</body>
+</html>
