@@ -306,86 +306,63 @@ body {
   position: absolute;
   left: 0;
 }
+---
+layout: default
+title: "Publications"
+permalink: /publications/
+---
 
-/* ===== PUBLICATIONS STYLES ===== */
-.publications-list {
-  margin-bottom: 3rem;
-}
+<div class="page-header">
+  <h2>Research Publications</h2>
+  <p>Peer-reviewed articles, book chapters, and conference proceedings in cybersecurity and AI systems.</p>
+</div>
 
-.year-section {
-  margin-bottom: 3rem;
-}
+<div class="publications-list">
+  <div class="year-section">
+    <h3>2025</h3>
+    
+    <div class="publication-card">
+      <div class="pub-header">
+        <span class="pub-type">Journal Article</span>
+      </div>
+      <div class="pub-authors">Chinonso, E. A., Lu, S., Ruambo, F., & Tchamini, F.</div>
+      <h4>RS-FEDRAD: Robust and Scalable Federated Ransomware Detection Using TTP-Enhanced Dataset</h4>
+      <p class="pub-venue">International Journal of Information Systems Engineering and Management</p>
+      <a href="https://doi.org/10.52783/jisem.v10i43s.8490" class="pub-link">🔗 View Publication</a>
+    </div>
 
-.year-section h3 {
-  color: #64ffda;
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  border-bottom: 1px solid #2d3748;
-  padding-bottom: 0.5rem;
-}
+    <div class="publication-card">
+      <div class="pub-header">
+        <span class="pub-type">Policy Paper</span>
+      </div>
+      <div class="pub-authors">Ahmed, N., Roomi, A., Chinonso, E. A., Fiaz, S. J., & Yasin, A.</div>
+      <h4>International Cyber Law and National Security: Balancing Privacy, Security, and Sovereignty</h4>
+      <p class="pub-venue">Policy Research Journal</p>
+      <a href="https://doi.org/10.5281/zenodo.15063015" class="pub-link">🔗 View Publication</a>
+    </div>
+  </div>
 
-.publication-card {
-  background: #0a192f;
-  border: 1px solid #1e3a5c;
-  border-radius: 8px;
-  padding: 2rem;
-  margin-bottom: 1.5rem;
-  transition: all 0.3s ease;
-}
+  <div class="year-section">
+    <h3>2024</h3>
+    
+    <div class="publication-card">
+      <div class="pub-header">
+        <span class="pub-type">Book Chapter</span>
+      </div>
+      <div class="pub-authors">Ruambo, F. A., Masanga, E. E., Nicholaus, M. R., & Chinonso, E. A.</div>
+      <h4>Enhanced Backdoor Resilience in Cross-Platform Systems Using Zero Trust SDP-Enabled SnortML IDS/IPS</h4>
+      <p class="pub-venue">Cybersecurity and Secure Information Systems, Taylor & Francis</p>
+      <a href="https://doi.org/10.1201/9781003614197-29" class="pub-link">🔗 View Publication</a>
+    </div>
+  </div>
+</div>
 
-.publication-card:hover {
-  border-color: #64ffda;
-}
-
-.pub-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.pub-type {
-  background: rgba(100, 255, 218, 0.1);
-  color: #64ffda;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  border: 1px solid rgba(100, 255, 218, 0.3);
-}
-
-.pub-authors {
-  color: #8892b0;
-  font-size: 0.9rem;
-}
-
-.publication-card h4 {
-  color: #e6f1ff;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  line-height: 1.4;
-}
-
-.pub-venue {
-  color: #a0aec0;
-  font-style: italic;
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-}
-
-.pub-link {
-  color: #64ffda;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.pub-link:hover {
-  color: #00ff88;
-}
-
+<div class="scholar-link">
+  <a href="https://scholar.google.com/citations?user=88vHMEMAAAAJ" class="external-link">
+    <span class="link-icon">🎓</span>
+    <span>Google Scholar Profile</span>
+  </a>
+</div>
 /* ===== BUTTON STYLES ===== */
 .quick-links {
   display: flex;
@@ -511,3 +488,4 @@ body {
     align-items: flex-start;
   }
 }
+
