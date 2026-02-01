@@ -12,8 +12,9 @@ permalink: /bio/
 <div class="bio-content">
   <div class="bio-section">
     <h3>About Me</h3>
-    <p>I am a Master's researcher in Cybersecurity at Huazhong University of Science and Technology (HUST), actively pursuing PhD opportunities for Fall 2026. My research is driven by a desire to understand and counter sophisticated cyber threats at a fundamental level.</p>
-    <p>My master's thesis, "Research on Ransomware Detection Technology Based on CNN-BiLSTM Hybrid Model," involved building an end-to-end system for behavioral malware analysis. I led the creation of a novel dataset of 30,173 ransomware samples by instrumenting and tracing low-level system behaviors (APIs, DLLs, mutexes) and mapping them to the MITRE ATT&CK framework. I then designed and implemented a federated learning framework that achieved 99.9% detection accuracy while preserving data privacy, resulting in a first-author publication.</p>
+    <p>In 2023, I received the fully funded Chinese Government Scholarship for a master's program, graduating with a 91.78 GPA (4.0/4.0) in cybersecurity under the supervision of Professor Songfeng Lu. Following the program, I was recognised with an Outstanding International Student Award 2025 from Huazhong University of Science and Technology.
+Earlier in my career, I received the Technology Wiz Award 2015 from Michael Okpara University of Agriculture, Nigeria, for developing a CGPA calculation application during the Computer Engineering Department Exhibition Week. I have actively participated in conferences, seminars, and talks on artificial intelligence, machine learning, and cybersecurity in Africa, China, and internationally. I have four peer-reviewed publications, two as first author..</p>
+    <p>My master's thesis, "Research on Ransomware Detection Technology Based on CNN-BiLSTM Hybrid Model," involved building an end-to-end system for behavioral malware analysis. I led the creation of a novel dataset of 30,173 ransomware samples by instrumenting and tracing low-level system behaviors (APIs, DLLs, mutexes) and mapping them to the MITRE ATT&CK framework. I then designed and implemented a federated learning based framework that achieved 99% detection accuracy while preserving data privacy.</p>
   </div>
 
   <div class="bio-grid">
