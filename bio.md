@@ -6,7 +6,7 @@ permalink: /bio/
 
 <div class="page-header">
   <h2>Professional Background</h2>
-  <p>Cybersecurity researcher with expertise in malware analysis, federated learning, and human-centered security systems.</p>
+  <p>Cybersecurity researcher with expertise in Malware analysis, DL/AI Applications, and Cybersecurity .</p>
 </div>
 
 <div class="bio-content">
