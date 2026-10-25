@@ -1,0 +1,7 @@
+# Newest first. Text accepts Markdown.
+- date: "October 2026"
+  text: "I am seeking PhD positions in cybersecurity for the Fall 2027 intake."
+- date: "June 2025"
+  text: "Our book chapter *Enhanced Backdoor Resilience in Cross-Platform Systems Using Zero Trust Based Software Defined Perimeter Architecture Powered with SnortML IDS/IPS* was published in *Cybersecurity, Cybercrimes, and Smart Emerging Technologies* (Taylor & Francis)."
+- date: "May 2025"
+  text: "Our paper *RS-FEDRAD: Robust and Scalable Federated Ransomware Detection Using TTP-Enhanced Dataset* was published in the *Journal of Information Systems Engineering and Management*."

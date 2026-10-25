@@ -1,0 +1,91 @@
+---
+layout: default
+title: "Ali Eric Chinonso"
+---
+{%- assign me = site.author -%}
+<section id="profile" class="section">
+  <div class="profile">
+    <aside>
+      <img class="profile-photo" src="{{ me.photo | relative_url }}" alt="Portrait of {{ me.name }}" />
+      <div class="connect">
+        <h2 class="connect-heading">Connect</h2>
+        <ul class="connect-list">
+          {%- for link in site.data.links %}
+          <li>
+            <a href="{{ link.url }}"{% unless link.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
+              <i class="{{ link.icon }}" aria-hidden="true"></i>
+              <span>{{ link.label }}</span>
+            </a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </aside>
+
+    <div class="profile-body">
+      <h1 class="profile-name">{{ me.name }}</h1>
+      <p class="profile-role">{{ me.status }}<br />{{ me.degree }}</p>
+
+      <p>I am a cybersecurity researcher working on behavioral threat detection and privacy-preserving collaborative learning for security. I received my M.Eng. in Cybersecurity from Huazhong University of Science and Technology (HUST), China, under the supervision of <a href="http://faculty.hust.edu.cn/lusongfeng/en/index.htm" target="_blank" rel="noopener">Professor Songfeng Lu</a>. My master's research, RS-FEDRAD, enriched API, DLL and mutex traces with MITRE ATT&amp;CK techniques and trained a federated ransomware detector across ten clients, reaching 99.90% accuracy without centralizing sensitive threat telemetry.</p>
+
+      <div class="notice">
+        <strong>Seeking PhD positions for Fall 2027.</strong> I am looking for PhD opportunities in cybersecurity, in particular behavior-based threat detection and trustworthy federated learning. Please feel free to contact me by email.
+      </div>
+
+      <p class="contact-line"><strong>Email:</strong> <a href="mailto:{{ me.email }}">{{ me.email }}</a></p>
+      <p class="contact-line"><strong>GitHub:</strong> <a href="https://github.com/{{ me.github }}" target="_blank" rel="noopener">github.com/{{ me.github }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="section">
+  <h2 class="section-title">Research Interests</h2>
+  <div class="research-grid">
+    <div class="research-card">
+      <h3>Behavioral Threat Detection</h3>
+      <p>Learning how attacks unfold over time from system and network telemetry, so that detectors recognize malicious intent, including previously unseen attacks, and can explain their decisions.</p>
+      <ul>
+        <li>ATT&amp;CK-informed modeling of malware and intrusion behavior</li>
+        <li>Temporal deep learning for ransomware and malware detection</li>
+        <li>Explainable and adversarially robust security models</li>
+      </ul>
+    </div>
+    <div class="research-card">
+      <h3>Trustworthy Federated and Distributed Security</h3>
+      <p>Enabling organizations and devices to defend collaboratively without sharing sensitive data, while remaining robust to unreliable or malicious participants.</p>
+      <ul>
+        <li>Privacy-preserving federated threat detection</li>
+        <li>Trust assessment and poisoning resilience under non-IID data</li>
+        <li>Zero Trust architectures for distributed and cyber-physical systems</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="background" class="section">
+  <h2 class="section-title">Background</h2>
+  <ul class="dated-list">
+    {%- for item in site.data.achievements %}
+    <li>
+      <span class="when">{{ item.years }}</span>
+      <div>
+        <p class="what-title">{{ item.title }}</p>
+        <p class="what-place">{{ item.place }}</p>
+        <p class="what-detail">{{ item.detail }}</p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section id="news" class="section">
+  <h2 class="section-title">News</h2>
+  <ul class="dated-list">
+    {%- for item in site.data.news %}
+    <li>
+      <time>{{ item.date }}</time>
+      <div>{{ item.text | markdownify }}</div>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>

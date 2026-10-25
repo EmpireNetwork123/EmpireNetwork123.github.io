@@ -1,0 +1,16 @@
+# Newest first. The site owner's name is highlighted automatically.
+- authors: "Chinonso E. Ali, Songfeng Lu, Francis A. Ruambo, and Francelle Tchamini"
+  title: "RS-FEDRAD: Robust and Scalable Federated Ransomware Detection Using TTP-Enhanced Dataset"
+  venue: "Journal of Information Systems Engineering and Management"
+  details: "10(43s):876–891, May 2025"
+  type: "Journal Article"
+  year: 2025
+  doi: "10.52783/jisem.v10i43s.8490"
+  code: "https://github.com/EmpireNetwork123/RS-FEDRAD-PROJECT"
+- authors: "Francis A. Ruambo, Chinonso E. Ali, Elijah E. Masanga, and Mrindoko R. Nicholaus"
+  title: "Enhanced Backdoor Resilience in Cross-Platform Systems Using Zero Trust Based Software Defined Perimeter Architecture Powered with SnortML IDS/IPS"
+  venue: "Cybersecurity, Cybercrimes, and Smart Emerging Technologies"
+  details: "pp. 317–332, Taylor & Francis, June 2025"
+  type: "Book Chapter"
+  year: 2025
+  doi: "10.1201/9781003614197-29"

@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Publications"
+permalink: /publications/
+description: "Publications of Ali Eric Chinonso on federated ransomware detection and Zero Trust network security."
+---
+<section class="section">
+  <h1 class="page-title">Publications</h1>
+  <p class="page-intro">An up-to-date list, including citation counts, is available on Google Scholar.</p>
+  <a class="scholar-pill" href="{{ site.author.scholar }}" target="_blank" rel="noopener">
+    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+    <span>Google Scholar profile</span>
+  </a>
+
+  <ol class="pub-list">
+    {%- for pub in site.data.publications %}
+    <li>
+      <p class="pub-title">{{ pub.title }}</p>
+      <p class="pub-authors">{{ pub.authors | replace: 'Chinonso E. Ali', '<strong>Chinonso E. Ali</strong>' }}</p>
+      <p class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.details }}</p>
+      <div class="pub-meta">
+        <span class="pub-type">{{ pub.type }}</span>
+        <a class="pub-link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+        {%- if pub.code %}
+        <a class="pub-link" href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>
+        {%- endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>

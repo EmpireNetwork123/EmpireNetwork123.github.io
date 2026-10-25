@@ -1,17 +1,25 @@
 title: "Ali Eric Chinonso"
-description: "PhD Applicant | Cybersecurity Research | Human-Centered Security"
-
-role: "Master of Cybersecurity"
-affiliation: "Huazhong University of Science and Technology"
-
-baseurl: ""
+tagline: "Cybersecurity Researcher"
+description: "Cybersecurity researcher working on behavioral threat detection and privacy-preserving federated learning for security. PhD applicant for the Fall 2027 intake."
 url: "https://empirenetwork123.github.io"
+baseurl: ""
+lang: en_US
 
-email: "Ericchinonso1@outlook.com"
-github_username: "EmpireNetwork123"
-linkedin_username: "ericchinonso"
-scholar_link: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
+author:
+  name: "Ali Eric Chinonso"
+  status: "PhD Applicant, Fall 2027 Intake"
+  degree: "M.Eng. in Cybersecurity, Huazhong University of Science and Technology"
+  email: "Ericchinonso1@outlook.com"
+  github: "EmpireNetwork123"
+  linkedin: "ericchinonso"
+  scholar: "https://scholar.google.com/citations?user=88vHMEMAAAAJ"
+  photo: "/assets/images/profile.jpg"
 
-about_me: "I am a cybersecurity researcher and PhD applicant passionate about building intelligent systems that bridge security with human-centered design. My work spans **Network Security**, **AI/ML Applications**, **Data Mining**, and **Cybersecurity**, exploring how these domains intersect to create adaptive solutions. My master's thesis pioneered a **decentralized, data-driven framework** for ransomware detection, achieving 99.9% accuracy through **behavioral analysis** and **adaptive learning**. I'm now expanding my focus to **Human-Computer Interaction**, **explainable AI** in security systems, **interactive data visualization** for threat intelligence, and **human-centered approaches** to vulnerability discovery. My goal is to develop **robust, interpretable systems** that protect critical infrastructure while empowering users through **intuitive interfaces** and **accessible security tools**."
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-theme: null
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
