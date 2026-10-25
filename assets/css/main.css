@@ -8,6 +8,7 @@
   --line: #e3e7ed;
   --accent: #1d4ed8;
   --accent-soft: #eef2fb;
+  --heading: #198754;
   --radius: 14px;
   --width: 900px;
 }
@@ -73,13 +74,14 @@ h3 {
 }
 
 .site-nav a {
-  color: var(--muted);
+  color: var(--heading);
 }
 
 .site-nav a:hover,
 .site-nav a[aria-current="page"] {
-  color: var(--text);
-  text-decoration: none;
+  color: #146c43;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* Page */
@@ -97,6 +99,7 @@ h3 {
 .section-title {
   font-size: 1.6rem;
   font-weight: 700;
+  color: var(--heading);
   padding-bottom: 12px;
   margin-bottom: 8px;
   border-bottom: 1px solid var(--line);
@@ -288,6 +291,7 @@ h3 {
 .page-title {
   font-size: 2.1rem;
   font-weight: 700;
+  color: var(--heading);
   margin-bottom: 12px;
 }
 
